@@ -27,8 +27,8 @@ FROM CUSTOMER
 GROUP BY STORE_ID
 ```
 🔸city tablosunda bulunan şehir verilerini country_id sütununa göre gruplandırdıktan sonra en fazla şehir sayısı barındıran country_id bilgisini ve şehir sayısını paylaşınız.
-✅Country Id :33
-        Count:1
+✅Country Id :44
+        Count:60
  ```sql
 SELECT COUNTRY_ID,
 	COUNT(*)
